@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="style.css" type="text/css">
     <meta charset="utf-8">
     <title>Astro Weight Calculator</title>
   </head>
   <body>
-     <!-- Write your markup here  -->
+  <style>
+  </style>
+  
+  <h2>Welcome to the Astro Weight Calculator!</h2>
+  <audio id="background-music" autoplay loop>
+    <source src="Intergalactic.mp3" type="audio/mpeg">
+  </audio>
+  <button id="play-music">Play Music</button>
+  <button id="pause-music">Pause Music</button>
+  <h3>Let's Guess Your Weight Among the Heavens!</h3>
+  <input type="number" id="user-weight" placeholder="Enter your weight" />
+ <h4><label for="planets">Select a celestial body!:</label></h4>
+  <select id="planets" name="planet-name">
+    <option value="">--Select a Planet--</option>
+  </select>
+  <br /><br />
+  <button id="calculate-button" name="calculateWeight">Compute your Calculation!</button>
+  <div id="result"></div>
+  <p id="output"></p>
+  
+  <script src="main.js" charset="utf-8"></script>
+  <script>
+    const music = document.getElementById('background-music');
+    const playButton = document.getElementById('play-music');
+    const pauseButton = document.getElementById('pause-music');
 
-    <script src="main.js" charset="utf-8"></script>
-  </body>
+    playButton.addEventListener('click', () => {
+        music.play();
+    });
+
+    pauseButton.addEventListener('click', () => {
+        music.pause();
+    });
+  </script>
+</body>
 </html>

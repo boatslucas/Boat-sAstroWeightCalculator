@@ -1,0 +1,66 @@
+html {
+    font-size: 16px;
+    font-family: 'Special Gothic Expanded One', sans-serif;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 1000;
+    color: #40ff00;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9), 0px 0px 10px rgba(255, 255, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+ 
+}
+body {
+    background-image: url("DALL·E%202025-04-23%2009.41.53%20.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+#background-music {
+    display: none;
+}
+h2 {
+    font-size: 3rem;
+    font-weight: 1000;
+    color: #40ff00;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9), 0px 0px 10px rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 13px;
+}
+h3 {
+    font-size: 3.5rem;
+    font-weight: 1000;
+    color: #40ff00;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9), 0px 0px 10px rgba(255, 255, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+h4{
+    font-size: 1rem;
+    font-weight: 1000;
+    color: #40ff00;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.9), 0px 0px 10px rgba(255, 255, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 1px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+
+
+
+
